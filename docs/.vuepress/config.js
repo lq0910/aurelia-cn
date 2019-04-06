@@ -4,7 +4,7 @@ module.exports = {
   head: [
     ["link", { rel: "icon", href: "/icons/icon.png" }]
   ],
-  base: '/aurelia-cn/', // 设置站点根路径
+  base: '/docs/', // 设置站点根路径
   //theme: "@vuepress/vue",
   themeConfig: {
     repo: "lq0910/aurelia-cn",
