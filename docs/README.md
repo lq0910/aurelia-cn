@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: aurelia-icon.svg
+heroImage: /aurelia-icon.svg
 actionText: 快速上手 →
 actionLink: /zh/guide/
 features:
