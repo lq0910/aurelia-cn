@@ -1,7 +1,10 @@
 module.exports = {
   title: "Aurelia 中文网",
   description: "Aurelia 简单强大的下一代MVVM应用框架",
-  head: [["link", { rel: "icon", href: "/logo.svg" }]],
+  head: [
+    ["link", { rel: "icon", href: "/icon.png" }]
+  ],
+  base: '/', // 设置站点根路径
   //theme: "@vuepress/vue",
   themeConfig: {
     repo: "lq0910/aurelia-cn",
@@ -10,7 +13,7 @@ module.exports = {
     // 以下为可选的编辑链接选项
 
     // 假如你的文档仓库和项目本身不在一个仓库：
-    docsRepo: "vuejs/vuepress",
+    //docsRepo: "lq0910/aurelia-cn",
     // 假如文档不是放在仓库的根目录下：
     docsDir: "docs",
     // 假如文档放在一个特定的分支下：
